@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--main-color: rgba(133,30,62,1);
+	--sec-main-color: rgba(101,30,62,1);
+	--third-main-color: rgba(3,18,36,1);
+	--text-color: #ffffff;
+
+}
+img  {
+	display: block;
+	max-width: 100%;
+	max-height: auto;
+}
+.mg_auto {
+	margin: auto;
+}
+.caro_img {
+	max-height: 82vh;
+}
+.white_text {
+	color: var(--text-color);
+}
+.center_text {
+	text-align: center;
+}
+.mg_top {
+	margin-top: 20px;
+}
+.title_div {
+	padding: 15px 0;
+	background-color: var(--main-color);
+	font-size: 7vh;
+	font-family: 'Bevan', Helvetica, sans-serif;
+	text-align: center;
+}
+.sub_title_div {
+	background-color: var(--sec-main-color);
+	font-size: 4vh;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	text-align: center;
+}
+.main_div {
+	background-color: var(--third-main-color);
+}
+.inl_block {
+	display: inline-block;
+}
+#img-div {
+}
+#image {
+	border-radius: 50%;
+	max-height: 300px;
+	max-width: 300px;
+}
+.section_div {
+	margin-bottom: 0 !important;
+}
+.edu_div {
+	background-color: var(--sec-main-color) !important;
+}
+.politics_div {
+	background: url("images/back.jpg") fixed no-repeat;
+	background-size: cover;
+}
+.awards_div {
+	background-color: var(--main-color) !important;
+}
+.footer {
+	background-color: var(--third-main-color) !important;
+}
+.rt_text {
+	text-align: right;
+}
+.praise_div {
+	background-color: var(--text-color) !important;
+}
+.praise_text {
+	font-size: 1.5em !important;
+}
+.social {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
